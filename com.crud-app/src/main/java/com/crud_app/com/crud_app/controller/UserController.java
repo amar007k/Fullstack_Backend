@@ -17,7 +17,7 @@ import com.crud_app.com.crud_app.model.User;
 import com.crud_app.com.crud_app.service.UserService;
 
 @RestController
-@CrossOrigin(origins = ("http://localhost:5173/"))
+@CrossOrigin(origins = ("https://fullstackappproject-ten.vercel.app/"))
 public class UserController {
 	
 	@Autowired
